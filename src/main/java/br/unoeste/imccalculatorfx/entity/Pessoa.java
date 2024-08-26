@@ -1,6 +1,8 @@
 package br.unoeste.imccalculatorfx.entity;
 
-public class Pessoa {
+import java.io.Serializable;
+
+public class Pessoa implements Serializable {
     private String nome;
     private int peso;
     private double altura;

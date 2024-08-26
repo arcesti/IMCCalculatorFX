@@ -1,6 +1,7 @@
 module br.unoeste.imccalculatorfx {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.desktop;
 
 
     opens br.unoeste.imccalculatorfx to javafx.fxml;

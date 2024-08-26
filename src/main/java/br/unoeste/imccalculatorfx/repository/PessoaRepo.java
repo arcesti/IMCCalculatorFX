@@ -2,10 +2,11 @@ package br.unoeste.imccalculatorfx.repository;
 
 import br.unoeste.imccalculatorfx.entity.Pessoa;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PessoaRepo {
+public class PessoaRepo implements Serializable {
     private List<Pessoa> list;
 
     public PessoaRepo() {
